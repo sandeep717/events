@@ -1,0 +1,11 @@
+<?php
+
+function custom_module_form_alter($form, &$form_state, $form_id){
+//    dpm($form_id);
+    if($form_id == 'webform_client_form_84'){
+        $form["submitted"]['name']['#attributes']["placeholder"] = t('test');
+        //$form['submitted']['#attributes']['class'] = 'get-quote-form';
+        //$form['name']['#attributes']['placeholder'] = 'Name';
+        //$form['name']['#attributes']['placeholder'] = t( 'Name' );
+    }
+}

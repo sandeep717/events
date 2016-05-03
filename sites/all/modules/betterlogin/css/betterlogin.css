@@ -1,0 +1,64 @@
+#auth_box {
+ width: 320px;
+  margin: 0 auto;
+  padding: 50px 0 0;
+}
+
+  #auth_box h1#the_logo {
+    text-align: center;
+    margin: 0;
+    padding: 0 0 25px;
+  }
+    
+    #auth_box h1#the_logo img {
+      max-width: 250px;
+    }
+  
+  #auth_box h2.title {
+    margin: 0;
+    padding: 0 0 15px;
+    font-size: 2em;
+  }
+  
+  #auth_box input[type="text"],
+  #auth_box input[type="password"] {
+    width: 100%;
+    border: 1px #ccc solid;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  #auth_box input[type="submit"] {
+    float: right;
+  }
+
+  #auth_box #middle_part {
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 30px 20px 20px 20px;
+    background-color: #fff;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+
+  }
+
+  #auth_box .back_link {
+    padding: 15px 0 0;
+  }
+
+  #auth_box #bottom_part {
+    font-size: 13px;
+    padding: 15px 0 0;
+  }
+
+#middle_part .dexp-page-toolbar .nav.nav-tabs{display: none;}
+#middle_part .btn-primary, #middle_part .form-submit{ margin:8px 0px; 
+  width: 100%; background: #5dba00; color:#fff !important;     border: 1px solid #ddd;  height: 40px;}
+.reg-btn{ width: 100%; margin: 15px 0;}
+#middle_part .region-content{padding: 0px;}
+.btn-outline{color: #67b519 !important}
+#middle_part .m-t-25{margin-top: 25px;}
+
+#middle_part .region{margin-bottom: 15px;}
